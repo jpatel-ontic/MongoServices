@@ -1,22 +1,28 @@
 package user;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.util.Scanner;
 
 public class UserApi {
     public static void main(String[] args) {
-        System.out.println("jeeta");
+        ApplicationContext appcontext = new AnnotationConfigApplicationContext(ApplictionConfiguration.class);
+
+
         Scanner input = new Scanner(System.in);
         boolean itr = true;
         while (itr) {
             System.out.println("1. Insert");
             System.out.println("2. Search");
             System.out.println("3. Delete");
-//            System.out.println("1. Insert");
             System.out.println("5. Quit");
 
             int choice = input.nextInt();
             input.nextLine();
-            UserServices userServices = new UserServices();
+
+            UserServices userServices = (UserServices) appcontext.getBean("UserServices");
+
             switch (choice) {
                 case 1:
                     System.out.println("Insert user Details");
@@ -29,7 +35,7 @@ public class UserApi {
 
                     User user = new User.UserBuilder(email).firstName(firstName).lastName(lastName).build();
 
-                   // UserServices userServices = new UserServices();
+                    // UserServices userServices = new UserServices();
 
                     userServices.insertUserDetails(user);
 
@@ -38,13 +44,12 @@ public class UserApi {
                 case 2:
                     System.out.println("EmailId for Search");
                     email = input.nextLine();
-                   User user1= userServices.searchUser(email);
-                   if(user1!=null ) {
-                       System.out.println("firstName " + user1.getFirstName());
-                       System.out.printf("lastName " + user1.getLastName());
-                   }
+                    User user1 = userServices.searchUser(email);
+                    if (user1 != null) {
+                        System.out.println("firstName " + user1.getFirstName());
+                        System.out.printf("lastName " + user1.getLastName());
+                    }
                     System.out.println(" ");
-
 
 
                     break;

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fae2288-a8b0-494a-96f3-f6e62f574f0b" name="Default Changelist" comment="" />
+    <list default="true" id="0fae2288-a8b0-494a-96f3-f6e62f574f0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/user/ApplictionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/MongoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/DataServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/MongoUserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/MongoUserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/UserServices.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +41,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WAB1sCbKEY4X3t2QEMv6FgailR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,14 +53,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.redisPlugin" />
   </component>
   <component name="RunManager" selected="Application.UserApi">
-    <configuration name="MongoServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="services.MongoServices" />
+    <configuration name="DataServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="services.DataServices" />
       <module name="First.main" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MongoServices" />
+        <item itemvalue="Application.DataServices" />
         <item itemvalue="Application.UserApi" />
       </list>
     </recent_temporary>
@@ -113,22 +127,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1579264757674" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1579254104336">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1579267255268">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1579254104336" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1579254104335">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1579267255268" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1579267255267">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1579254104335" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1579254104335">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1579267255267" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1579267255266">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1579254104335" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1579254104336">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1579267255266" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1579267255268">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1579254104336" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1579267255268" />
     <state x="384" y="141" key="SettingsEditor" timestamp="1579169663141">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -142,9 +156,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="602" y="183" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1579238569204" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1579241278983">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1579265208383">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579241278983" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579265208383" />
   </component>
 </project>
